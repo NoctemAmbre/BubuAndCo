@@ -1,6 +1,6 @@
 package Test;
 
-public abstract class abstractParent {
+public abstract class abstractParent implements Validable {
 	public abstractParent()
 	{
 		
@@ -20,5 +20,9 @@ public abstract class abstractParent {
 	public void Test3()
 	{
 		System.out.println("Methode Test3 de la Classe Parent");
+	}
+	public void Valider()
+	{
+		System.out.println("Implémentation de l'interface");
 	}
 }

@@ -9,5 +9,9 @@ public class Enfant2 extends abstractParent {
 	{
 		System.out.println("Methode Test2 de la Classe Enfant2");
 	}
+	public void Valider()
+	{
+		System.out.println("Methode Valider sur la Classe Enfant2");
+	}
 
 }
